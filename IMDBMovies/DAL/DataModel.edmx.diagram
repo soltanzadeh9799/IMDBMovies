@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6ab4916f80742f2b50467768e7843a0" Name="Diagram1">
+        <EntityTypeShape EntityType="IMDBMoviesModel.Actor" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.Country" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.Genre" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.Language" Width="1.5" PointX="6" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.Movie" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.MovieActor" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.MovieGenre" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.MovieImage" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.MovieLanguage" Width="1.5" PointX="8.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.MovieWriter" Width="1.5" PointX="8.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.sysdiagram" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMDBMoviesModel.Writer" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieActors_TBLBaseActor" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_Movie_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieGenres_TBLBaseGenre" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieLanguages_TBLBaseLanguage" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieActors_TBLMovies" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieGenres_TBLMovies" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieImages_TBLMovies" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieLanguages_TBLMovies" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieWriters_TBLMovies" ManuallyRouted="false" />
+        <AssociationConnector Association="IMDBMoviesModel.FK_TBLMovieWriters_TBLBaseWriter" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
